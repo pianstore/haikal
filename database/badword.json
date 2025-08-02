@@ -1,0 +1,24 @@
+{
+  "120363418261543423@g.us": {
+    "listBadword": [],
+    "createdAt": "2025-06-03T07:13:25.612Z",
+    "updatedAt": "2025-06-03T07:13:25.612Z"
+  },
+  "global-badword": {
+    "listBadword": [
+      "pepek"
+    ],
+    "createdAt": "2025-06-03T07:13:25.613Z",
+    "updatedAt": "2025-06-18T14:21:11.381Z"
+  },
+  "120363401420049080@g.us": {
+    "listBadword": [],
+    "createdAt": "2025-06-18T14:20:23.692Z",
+    "updatedAt": "2025-06-18T14:20:23.692Z"
+  },
+  "120363415525175589@g.us": {
+    "listBadword": [],
+    "createdAt": "2025-06-27T13:31:40.399Z",
+    "updatedAt": "2025-06-27T13:31:40.399Z"
+  }
+}
