@@ -15,7 +15,7 @@ const VERSION = global.version;
 // Konfigurasi API EKSTERNAL
 const apikey = {
     botz: 'https://api.betabotz.eu.org',
-    key: 'APIKEY_YUDZXML' // Ganti dengan milikmu
+    key: 'wkwk' // Ganti dengan milikmu
 };
 
 // Export semua konfigurasi
